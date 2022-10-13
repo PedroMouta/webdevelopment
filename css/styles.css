@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  background-color: #FFFFFF;
+  color: #40514E;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 239px;
+  font-size: 5rem;
+  font-family: 'Expletus Sans', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Expletus Sans', cursive;
+  color: #66BFBF;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Expletus Sans', cursive;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Expletus Sans', cursive;
+  font-size: 1.2rem;
+  padding: 0 1%;
+}
+
+a:hover {
+  transition: .2s;
+  color: white;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  max-height: 800px;
+}
+
+.middle-container {
+  background-color: #FFFFFF;
+}
+
+.profile {
+  width: 30%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.profile-img {
+  width: 30%;
+  margin-right: 30px;
+  margin-top: 7px;
+}
+
+p {
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+/*------ Skills Images -------*/
+
+.economy-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-top: -10px;
+}
+
+.webdev-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  padding: 50px 0 50px 0;
+  line-height: 2;
+
+}
+
+/*------ can also be only margin: 0 auto; -------*/
+
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 15%;
+  width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 15%;
+  width: 200px;
+}
+
+.copyright {
+  margin: 0;
+}
+
+
+/*------ HR -------*/
+
+hr {
+  border-top: 5px dotted;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+
+  color: #D8D9CF;
+  width: 2.5%;
+  margin: 100px auto;
+}
+
+
+.contact-me {
+  height: 350px;
+  line-height: 2;
+}
+
+
+/*------ BUTTONS -------*/
+
+.btn {
+  color: #ffffff;
+  font-family: 'Expletus Sans', cursive;
+  font-size: 1rem;
+  background: #11999e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.btn:hover {
+  background: #2bc4ad;
+  transition: .2s;
+  text-decoration: none;
+}
